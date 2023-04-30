@@ -12,7 +12,8 @@ public class ItemBroadSword extends Item implements IHasModel {
         setUnlocalizedName(name);
         setCreativeTab(CreativeTabs.COMBAT);
         setMaxStackSize(1);
-        setHarvestLevel("sword", 2);
+
+        InitItems.ITEMS.add(this);
     }
 
     @Override

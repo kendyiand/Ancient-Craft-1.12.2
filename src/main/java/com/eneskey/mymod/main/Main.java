@@ -3,8 +3,6 @@ package com.eneskey.mymod.main;
 import com.eneskey.mymod.reference.Reference;
 import com.eneskey.mymod.proxy.CommonProxy;
 
-import net.minecraft.item.Item;
-import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
@@ -22,11 +20,11 @@ public class Main {
     public static CommonProxy proxy;
 
     @Mod.EventHandler
-    public static void preInit(FMLPreInitializationEvent event) {};
+    public static void preInit(FMLPreInitializationEvent event) {}
 
     @Mod.EventHandler
-    public static void init(FMLInitializationEvent event) {};
+    public static void init(FMLInitializationEvent event) {}
 
     @Mod.EventHandler
-    public static void postInit(FMLPostInitializationEvent event) {};
+    public static void postInit(FMLPostInitializationEvent event) {}
 }
